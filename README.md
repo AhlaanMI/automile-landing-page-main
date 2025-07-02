@@ -6,21 +6,30 @@ AutoMile is an intelligent vehicle management system that leverages IoT, machine
 
 ---
 
+## 🌐 Live Demo
+
+[https://automile-landing-page-main.vercel.app/](https://automile-landing-page-main.vercel.app/)
+
+---
+
 ## 🔧 Features
 
 - **📍 Real-Time Vehicle Tracking**
   - Monitor vehicle location using ESP32 and GPS modules.
-  
 - **🔧 Predictive Maintenance**
+
   - Predict upcoming failures using sensor data and Random Forest Classifier.
 
 - **📊 Travel Forecasting**
+
   - Estimate how much the vehicle is expected to travel using time-series (ARIMA) analysis.
 
 - **🧠 AI Chatbot**
+
   - Ask maintenance questions or get vehicle health insights via a neural network-powered assistant.
 
 - **🛠️ Auto Parts Recommender**
+
   - Get smart part suggestions using TextBlob sentiment analysis and review-based ranking.
 
 - **📈 Dashboard Analytics**
@@ -42,12 +51,12 @@ AutoMile is an intelligent vehicle management system that leverages IoT, machine
 
 ## 📷 Screenshots
 
-| Dashboard | Travel Forecast |
-|-----------|-----------------|
+| Dashboard                                   | Travel Forecast                           |
+| ------------------------------------------- | ----------------------------------------- |
 | ![Dashboard](public/preview/dashboard.jpeg) | ![Forecast](public/preview/forecast.jpeg) |
 
-| Chatbot | Part Recommender |
-|--------|------------------|
+| Chatbot                                 | Part Recommender                                |
+| --------------------------------------- | ----------------------------------------------- |
 | ![Chatbot](public/preview/chatbot.jpeg) | ![Parts](public/preview/parts-recommender.jpeg) |
 
 ---
@@ -65,3 +74,4 @@ cd automile
 cd client
 npm install
 npm run dev
+```
